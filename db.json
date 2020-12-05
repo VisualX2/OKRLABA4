@@ -1,6 +1,6 @@
 {
     "products":[{
-            "url": "pizza_mozzarella",
+            "id": "1",
             "productName": "Pizza Mozzarella",
             "productDescription": "Моцарелла, Соус, Говно",
             "price": 155.05,
@@ -8,11 +8,11 @@
             "weight": 250,
             "relatedProductIds": [7,12,98],
             "spicy": false,
-            "categoryId": 3,
+            "categoryId": 1,
             "recommended": true 
         },
         {
-            "url": "pizza_pepperoni",
+            "id": "2",
             "productName": "Pizza Pepperoni",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -20,11 +20,11 @@
             "weight": 250,
             "relatedProductIds": [7,12,98],
             "spicy": false,
-            "categoryId": 3,
+            "categoryId": 1,
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "3",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -36,7 +36,67 @@
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "4",
+            "productName": "Pizza Mozzarella",
+            "productDescription": "About Pizza ... ",
+            "price": 155.05,
+            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
+            "weight": 250,
+            "relatedProductIds": [7,12,98],
+            "spicy": false,
+            "categoryId": 1,
+            "recommended": true 
+        },
+        {
+            "id": "5",
+            "productName": "Pizza Mozzarella",
+            "productDescription": "About Pizza ... ",
+            "price": 155.05,
+            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
+            "weight": 250,
+            "relatedProductIds": [7,12,98],
+            "spicy": false,
+            "categoryId": 2,
+            "recommended": true 
+        },
+        {
+            "id": "6",
+            "productName": "Pizza Mozzarella",
+            "productDescription": "About Pizza ... ",
+            "price": 155.05,
+            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
+            "weight": 250,
+            "relatedProductIds": [7,12,98],
+            "spicy": false,
+            "categoryId": 2,
+            "recommended": true 
+        },
+        {
+            "id": "7",
+            "productName": "Pizza Mozzarella",
+            "productDescription": "About Pizza ... ",
+            "price": 155.05,
+            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
+            "weight": 250,
+            "relatedProductIds": [7,12,98],
+            "spicy": false,
+            "categoryId": 2,
+            "recommended": true 
+        },
+        {
+            "id": "8",
+            "productName": "Pizza Mozzarella",
+            "productDescription": "About Pizza ... ",
+            "price": 155.05,
+            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
+            "weight": 250,
+            "relatedProductIds": [7,12,98],
+            "spicy": false,
+            "categoryId": 2,
+            "recommended": true 
+        },
+        {
+            "id": "9",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -48,7 +108,7 @@
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "10",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -60,7 +120,7 @@
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "11",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -72,7 +132,7 @@
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "12",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -80,11 +140,11 @@
             "weight": 250,
             "relatedProductIds": [7,12,98],
             "spicy": false,
-            "categoryId": 3,
+            "categoryId": 4,
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "13",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -92,11 +152,11 @@
             "weight": 250,
             "relatedProductIds": [7,12,98],
             "spicy": false,
-            "categoryId": 3,
+            "categoryId": 4,
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "14",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -104,11 +164,11 @@
             "weight": 250,
             "relatedProductIds": [7,12,98],
             "spicy": false,
-            "categoryId": 3,
+            "categoryId": 5,
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "15",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -116,11 +176,11 @@
             "weight": 250,
             "relatedProductIds": [7,12,98],
             "spicy": false,
-            "categoryId": 3,
+            "categoryId": 5,
             "recommended": true 
         },
         {
-            "url": "pizza_mozzarella",
+            "id": "16",
             "productName": "Pizza Mozzarella",
             "productDescription": "About Pizza ... ",
             "price": 155.05,
@@ -128,67 +188,7 @@
             "weight": 250,
             "relatedProductIds": [7,12,98],
             "spicy": false,
-            "categoryId": 3,
-            "recommended": true 
-        },
-        {
-            "url": "pizza_mozzarella",
-            "productName": "Pizza Mozzarella",
-            "productDescription": "About Pizza ... ",
-            "price": 155.05,
-            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
-            "weight": 250,
-            "relatedProductIds": [7,12,98],
-            "spicy": false,
-            "categoryId": 3,
-            "recommended": true 
-        },
-        {
-            "url": "pizza_mozzarella",
-            "productName": "Pizza Mozzarella",
-            "productDescription": "About Pizza ... ",
-            "price": 155.05,
-            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
-            "weight": 250,
-            "relatedProductIds": [7,12,98],
-            "spicy": false,
-            "categoryId": 3,
-            "recommended": true 
-        },
-        {
-            "url": "pizza_mozzarella",
-            "productName": "Pizza Mozzarella",
-            "productDescription": "About Pizza ... ",
-            "price": 155.05,
-            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
-            "weight": 250,
-            "relatedProductIds": [7,12,98],
-            "spicy": false,
-            "categoryId": 3,
-            "recommended": true 
-        },
-        {
-            "url": "pizza_mozzarella",
-            "productName": "Pizza Mozzarella",
-            "productDescription": "About Pizza ... ",
-            "price": 155.05,
-            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
-            "weight": 250,
-            "relatedProductIds": [7,12,98],
-            "spicy": false,
-            "categoryId": 3,
-            "recommended": true 
-        },
-        {
-            "url": "pizza_mozzarella",
-            "productName": "Pizza Mozzarella",
-            "productDescription": "About Pizza ... ",
-            "price": 155.05,
-            "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
-            "weight": 250,
-            "relatedProductIds": [7,12,98],
-            "spicy": false,
-            "categoryId": 3,
+            "categoryId": 5,
             "recommended": true 
         }
 

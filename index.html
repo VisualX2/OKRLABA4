@@ -52,6 +52,51 @@
               </form>
             </div>
           </nav>
+          <script>
+              
+              window.onload = readProduct();
+              async function readProduct(){
+                  let products = await fetch("https://my-json-server.typicode.com/VisualX2/OKRLABA4/products").then(response => response.json()) || [];
+                  
+                  console.log(products);
+                  createCatalog(products);
+                  
+              }
+              
+              function createCatalog(catalogFetched) {
+                  
+                let firstCategory = [];
+                let secondCategory = [];
+                let thirdCategory = [];
+                let fourthCategory = [];
+                let fifthCategory = [];
+                
+                catalogFetched.forEach(element => {
+                    if(element.categoryId == "1"){
+                        firstCategory.push(element.categoryId);
+                    }
+                    else if(element.categoryId == "2"){
+                        secondCategory.push(element.categoryId);
+                    }
+                    else if(element.categoryId == "3"){
+                        thirdCategory.push(element.categoryId);
+                    }
+                    else if(element.categoryId == "4"){
+                        fourthCategory.push(element.categoryId);
+                    }
+                    else if(element.categoryId == "5"){
+                        fifthCategory.push(element.categoryId);
+                    }
+                });
+                console.log(firstCategory);
+                console.log(secondCategory);
+                console.log(thirdCategory);
+                console.log(fourthCategory);
+                console.log(fifthCategory);
+              }
+              
+
+          </script>
           <div class="slider">
             <div class="slide slide1"></div>
             <div class="slide slide2"></div>
