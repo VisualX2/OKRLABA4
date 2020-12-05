@@ -2,7 +2,7 @@
     "products":[{
             "id": "1",
             "productName": "Pizza Mozzarella",
-            "productDescription": "Моцарелла, Соус, Говно",
+            "productDescription": "Моцарелла, Соус",
             "price": 155.05,
             "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
             "weight": 250,
