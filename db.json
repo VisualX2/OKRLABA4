@@ -1,6 +1,6 @@
 {
     "products":[{
-            "id": "pizza_mozarella",
+            "id": "1",
             "productName": "Пицца Моцарелла",
             "productDescription": "Моцарелла, соус",
             "price": 155.05,
@@ -12,7 +12,7 @@
             "recommended": false 
         },
         {
-            "id": "pepperoni_pizza",
+            "id": "2",
             "productName": "Пицца Пепперони",
             "productDescription": "Моцарелла, соус, пепперони, ветчина",
             "price": 175.05,
@@ -24,7 +24,7 @@
             "recommended": false 
         },
         {
-            "id": "mushroom_pizza",
+            "id": "3",
             "productName": "Грибная пицца",
             "productDescription": "Моцарелла, соус, грибы",
             "price": 145.05,
@@ -36,7 +36,7 @@
             "recommended": true 
         },
         {
-            "id": "pepperoni_with_tomato",
+            "id": "4",
             "productName": "Пепперони с томатами",
             "productDescription": "Моцарелла, пепперони, помидоры, соус BBQ",
             "price": 155.05,

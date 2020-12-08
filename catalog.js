@@ -110,7 +110,7 @@ function generateCategory(f) {
         let countPizza = 1;
         let finalPrice = element.price * countPizza;
         card.innerHTML += "<div class = 'card-body'><h5 class = 'card-title'>" + element.productName + "</h5></div>";
-        card.innerHTML += "<img src = '" + element.images[0] + "' class='d-block user-select-none' width='100%' height='200' aria-label='Placeholder: Image cap' focusable='false' role='img' preserveAspectRatio='xMidYMid slice' viewBox='0 0 318 180' style='font-size:1.125rem;text-anchor:middle'>";
+        card.innerHTML += "<img src = '" + element.images + "' class='d-block user-select-none' width='100%' height='200' aria-label='Placeholder: Image cap' focusable='false' role='img' preserveAspectRatio='xMidYMid slice' viewBox='0 0 318 180' style='font-size:1.125rem;text-anchor:middle'>";
         card.innerHTML += "<div class = 'card-body'><p class='card-text'>" + element.productDescription + "</p></div>";
         card.innerHTML += "<div class = 'card-body'><h2>" + element.price + " грн.</h2><p>" + element.weight + " г.</p><h6></div>"
         card.innerHTML += "<button type='button' class='btn btn-danger' onclick='add_to_cart(" + element.id + ", " + countPizza + "," + finalPrice + ");'>В Корзину</button>"
