@@ -4,6 +4,9 @@
         <title>Laba 3</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        
+        
+        <script src="catalog.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lux/bootstrap.min.css" integrity="sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -23,7 +26,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Catalog</a>
+                  <a class="nav-link" href="#catalog">Catalog</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Product</a>
@@ -54,75 +57,14 @@
           </nav>
           <script>
               
-              window.onload = readProduct();
-              async function readProduct(){
-                  let products = await fetch("https://my-json-server.typicode.com/VisualX2/OKRLABA4/products").then(response => response.json()) || [];
-                  
-                  console.log(products);
-                  createCatalog(products);
-                  
-              }
               
-              function createCatalog(catalogFetched) {
-                  
-                let firstCategory = [];
-                let secondCategory = [];
-                let thirdCategory = [];
-                let fourthCategory = [];
-                let fifthCategory = [];
-                
-                catalogFetched.forEach(element => {
-                    if(element.categoryId == 1){
-                        firstCategory.push(element);
-                    }
-                    else if(element.categoryId == 2){
-                        secondCategory.push(element);
-                    }
-                    else if(element.categoryId == 3){
-                        thirdCategory.push(element);
-                    }
-                    else if(element.categoryId == 4){
-                        fourthCategory.push(element);
-                    }
-                    else if(element.categoryId == 5){
-                        fifthCategory.push(element);
-                    }
-                });
-                console.log(firstCategory);
-                console.log(secondCategory);
-                console.log(thirdCategory);
-                console.log(fourthCategory);
-                console.log(fifthCategory);
-                generateCatalogPage(firstCategory, secondCategory, thirdCategory, fourthCategory, fifthCategory);
-              }
-              
-              function generateCatalogPage(f,s,t,fo,fi) {
-                generateFirstCategory(f);
-                
-              }
-              function generateFirstCategory(f){
-                document.body.innerHTML += "<div class = 'jumbotron'><h1>Basic pizza</h1><div id = 'first_category' style = 'display: grid; grid-template-columns: repeat(4, 1fr); grid-column-gap: 10px;'></div></div>";
-                let uwu = document.getElementById("first_category");
-                f.forEach(element => {
-                    
-                    let card = document.createElement("div");
-                    card.setAttribute("class","card border-secondary mb-3");
-                    card.setAttribute("style","width: 350px;");
-                    card.innerHTML += "<div class = 'card-body'><h5 class = 'card-title'>"+ element.productName +"</h5></div>";
-                    card.innerHTML += "<img src = '"+element.images[0]+"' class='d-block user-select-none' width='100%' height='200' aria-label='Placeholder: Image cap' focusable='false' role='img' preserveAspectRatio='xMidYMid slice' viewBox='0 0 318 180' style='font-size:1.125rem;text-anchor:middle'>";
-                    card.innerHTML += "<div class = 'card-body'><p class='card-text'>"+element.productDescription+"</p></div>";
-                    uwu.appendChild(card);
-                    
-                });
-              }
           </script>
-          <div class="slider">
-            <div class="slide slide1"></div>
-            <div class="slide slide2"></div>
-            <div class="slide slide3"></div>
-            <div class="slide slide4"></div>
-          </div>
+          
+          <div id = "root">
             
-        
+          </div>
+          
+            <script src="app.js"></script>
+            
     </body>
 </html>
