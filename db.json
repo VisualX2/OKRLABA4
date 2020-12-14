@@ -204,14 +204,14 @@
             "id": "2",
             "actionName": "Пицца Пепперони",
             "actionDescription": "Моцарелла, соус, пепперони, ветчина",
-            "price": 175.05,
+            "date": 175.05,
             "images": "path/to/cdn.jpg"
         },
         {
             "id": "3",
             "actionName": "Грибная пицца",
             "actionDescription": "Моцарелла, соус, грибы",
-            "price": 145.05,
+            "date": 145.05,
             "images": "path/to/cdn.jpg"
         }
     ]
