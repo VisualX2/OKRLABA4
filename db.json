@@ -192,5 +192,27 @@
             "recommended": true 
         }
 
+    ],
+    "actions":[{
+            "id": "1",
+            "actionName": "Пицца Моцарелла",
+            "actionDescription": "Моцарелла, соус",
+            "date": 155.05,
+            "images": "path/to/cdn.jpg"
+        },
+        {
+            "id": "2",
+            "productName": "Пицца Пепперони",
+            "productDescription": "Моцарелла, соус, пепперони, ветчина",
+            "price": 175.05,
+            "images": "path/to/cdn.jpg"
+        },
+        {
+            "id": "3",
+            "productName": "Грибная пицца",
+            "productDescription": "Моцарелла, соус, грибы",
+            "price": 145.05,
+            "images": "path/to/cdn.jpg"
+        }
     ]
 }
