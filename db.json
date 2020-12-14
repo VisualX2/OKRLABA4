@@ -33,7 +33,7 @@
             "relatedProductIds": [7,12,98],
             "spicy": false,
             "categoryId": 1,
-            "recommended": true 
+            "recommended": false 
         },
         {
             "id": "4",
@@ -57,7 +57,7 @@
             "relatedProductIds": [7,12,98],
             "spicy": false,
             "categoryId": 2,
-            "recommended": true 
+            "recommended": false 
         },
         {
             "id": "6",
@@ -69,7 +69,7 @@
             "relatedProductIds": [7,12,98],
             "spicy": false,
             "categoryId": 2,
-            "recommended": true 
+            "recommended": false 
         },
         {
             "id": "7",
@@ -117,7 +117,7 @@
             "relatedProductIds": [7,12,98],
             "spicy": false,
             "categoryId": 3,
-            "recommended": true 
+            "recommended": false 
         },
         {
             "id": "11",
@@ -141,7 +141,7 @@
             "relatedProductIds": [7,12,98],
             "spicy": false,
             "categoryId": 4,
-            "recommended": true 
+            "recommended": false 
         },
         {
             "id": "13",
@@ -157,32 +157,32 @@
         },
         {
             "id": "14",
-            "productName": "Pizza Mozzarella",
-            "productDescription": "About Pizza ... ",
-            "price": 55.05,
-            "images": "",
-            "weight": 150,
-            "relatedProductIds": [7,12,98],
-            "spicy": false,
-            "categoryId": 5,
-            "recommended": true 
-        },
-        {
-            "id": "15",
             "productName": "BonAqua",
-            "productDescription": "About Pizza ... ",
+            "productDescription": "",
             "price": 24,
             "images": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/11/gaz-thumbnail-960x960.png",
             "weight": 1000,
             "relatedProductIds": [7,12,98],
             "spicy": false,
             "categoryId": 5,
-            "recommended": true 
+            "recommended": false 
+        },
+        {
+            "id": "15",
+            "productName": "Sprite",
+            "productDescription": "",
+            "price": 24,
+            "images": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/16/sprite-min-thumbnail-960x960.png",
+            "weight": 1000,
+            "relatedProductIds": [7,12,98],
+            "spicy": false,
+            "categoryId": 5,
+            "recommended": false 
         },
         {
             "id": "16",
             "productName": "Coca-Cola",
-            "productDescription": "About Pizza ... ",
+            "productDescription": "",
             "price": 24,
             "images": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/11/cc-thumbnail-960x960.png",
             "weight": 1000,
