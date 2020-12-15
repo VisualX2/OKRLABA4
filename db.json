@@ -215,5 +215,5 @@
             "images": "path/to/cdn.jpg"
         }
     ],
-    "offers":[{}]
+    "offers":[]
 }
